@@ -2,8 +2,8 @@
 // @name         PokeSurvivor Bot
 // @author       Duongnguyen0808
 // @homepageURL  https://github.com/Duongnguyen0808/poke
-// @match        https://pokesurvivor.com/*
 // @match        https://pokesurvivor.doofcraft.com/*
+// @match        https://pokesurvivor.com/*
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
