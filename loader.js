@@ -1,4 +1,4 @@
-// PokeSurvivor Bot loader (Duongnguyen0808 · https://github.com/Duongnguyen0808/poke) — MIT License
+// PokeSurvivor Bot loader (Làm bởi bincute · https://github.com/Duongnguyen0808/poke) — MIT License
 // For browsers without Chrome extensions (Android / iOS): a bookmarklet runs this on pokesurvivor.doofcraft.com,
 // it fetches the latest files from the original repo and runs them in the same order as manifest.json.
 (async () => {

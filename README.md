@@ -1,6 +1,6 @@
 # PokeSurvivor Bot
 
-Bot tự chơi [pokesurvivor.doofcraft.com](https://pokesurvivor.doofcraft.com/).
+Bot tự chơi [pokesurvivor.doofcraft.com](https://pokesurvivor.doofcraft.com/). **Làm bởi bincute**.
 
 ## Cài đặt trên máy tính (PC / Chrome)
 1. Tải [ZIP](https://github.com/Duongnguyen0808/poke/archive/refs/heads/main.zip) và giải nén.

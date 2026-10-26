@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PokeSurvivor Bot
-// @author       Duongnguyen0808
+// @author       bincute
 // @homepageURL  https://github.com/Duongnguyen0808/poke
 // @match        https://pokesurvivor.doofcraft.com/*
 // @match        https://pokesurvivor.com/*
@@ -8,7 +8,7 @@
 // @run-at       document-idle
 // ==/UserScript==
 //
-// PokeSurvivor Bot — https://github.com/Duongnguyen0808/poke
+// PokeSurvivor Bot — Làm bởi bincute · https://github.com/Duongnguyen0808/poke
 // MIT License (xem LICENSE): dùng lại / chỉnh sửa thì phải giữ dòng bản quyền và giấy phép.
 //
 // Paste into DevTools Console, install as a Tampermonkey userscript, or load this folder as a Chrome extension (manifest.json).
@@ -2253,7 +2253,7 @@
   ctl.style.cssText = 'order:0;pointer-events:auto;font:12px monospace;background:#101418ee;color:#ddd;border:1px solid #345;border-radius:6px;padding:6px 8px;display:flex;flex-direction:column;gap:5px;min-width:190px';
   const btnCss = 'font:12px monospace;padding:3px 8px;border:1px solid #456;border-radius:4px;cursor:pointer;color:#000';
   ctl.innerHTML = `
-    <div style="display:flex;align-items:center;gap:6px;font-weight:bold;color:#7cf"><span style="flex:1">PokeSurvivor Bot v${VERSION} <a href="${REPO}" target="_blank" rel="noopener" style="font-weight:normal;color:#9ab;text-decoration:none" title="Repo gốc trên GitHub">· GitHub</a></span>
+    <div style="display:flex;align-items:center;gap:6px;font-weight:bold;color:#7cf"><span style="flex:1">PokeSurvivor Bot v${VERSION} <a href="${REPO}" target="_blank" rel="noopener" style="font-weight:normal;color:#9ab;text-decoration:none" title="Repo gốc trên GitHub">· Làm bởi bincute</a></span>
       <button data-ctl="min" style="${btnCss};background:#9ab;padding:0 8px" title="Thu gọn / mở rộng">–</button></div>
     <style>[data-psbot-ctl][data-min] > :not(:first-child) { display: none !important }
       @media (pointer: coarse) { [data-psbot-ui] button, [data-psbot-ui] select, [data-psbot-ui] input { min-height: 34px; font-size: 14px !important } }</style>
@@ -2271,7 +2271,7 @@
       <button data-ctl="catalog" style="${btnCss};background:#9ab" title="Danh mục sprite (F6)">Danh mục</button>
     </div>
     <div data-ctl="status" style="color:#9ab"></div>
-    <a href="${REPO}" target="_blank" rel="noopener" title="Repo gốc — bấm để mở GitHub" style="order:1;border-top:1px solid #345;padding-top:4px;color:#9ab;text-decoration:none">⭐ <b style="color:#7cf">Duongnguyen0808</b> · github.com/Duongnguyen0808/poke</a>
+    <a href="${REPO}" target="_blank" rel="noopener" title="Repo gốc — bấm để mở GitHub" style="order:1;border-top:1px solid #345;padding-top:4px;color:#9ab;text-decoration:none">⭐ Làm bởi <b style="color:#7cf">bincute</b> · github.com/Duongnguyen0808/poke</a>
     <a data-ctl="update" href="${REPO}" target="_blank" rel="noopener" style="display:none;color:#000;background:#fc3;border-radius:4px;padding:3px 6px;text-decoration:none;font-weight:bold"></a>`;
   dock.append(ctl);
   const $ = k => ctl.querySelector(`[data-ctl="${k}"]`);
@@ -2669,5 +2669,5 @@
       log('unloaded');
     },
   };
-  log(`loaded — F8 bật/tắt, F9 overlay, PSBot.sources() để xem sprite · v${VERSION} · ${REPO}`);
+  log(`loaded — F8 bật/tắt, F9 overlay, PSBot.sources() để xem sprite · v${VERSION} · Làm bởi bincute · ${REPO}`);
 })();
